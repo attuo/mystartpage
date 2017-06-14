@@ -1,0 +1,29 @@
+{
+    
+    "manifest_version": 2,
+    "name": "MyStartPage",
+    "version": "1.0",
+
+    "description": "Useful home and new tab page",
+
+    "icons": {
+        "48": "icons/icon-48.png"
+    },
+    
+    "permissions": [
+        "activetab",
+        "tabs",
+        "storage"
+    ],
+
+    "browser_action": {
+        "default_icon": "icons/icon-48.png",
+        "default_title": "mystartpage"
+    },
+
+    "background": {
+            "scripts": ["js/mystartpage.js"]
+    }
+    
+    
+}
