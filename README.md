@@ -2,7 +2,7 @@
 
 Firefox Web Extension for a customizable homepage and newtab page.
 
-# TODO
+### TODO
 
   * Better way for overriding the homepage and newtab page
   * Categories and links etc. will be taken from user's files.
