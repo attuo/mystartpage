@@ -7,7 +7,7 @@
     "description": "Useful home and new tab page",
 
     "icons": {
-        "48": "icons/icon-48.png"
+        "48": "src/icons/icon-48.png"
     },
     
     "permissions": [
@@ -17,12 +17,13 @@
     ],
 
     "browser_action": {
-        "default_icon": "icons/icon-48.png",
-        "default_title": "mystartpage"
+        "default_icon": "src/icons/icon-48.png",
+        "default_title": "mystartpage",
+        "default_popup": "src/popup/popup.html"
     },
 
     "background": {
-            "scripts": ["js/mystartpage.js"]
+            "scripts": ["src/background.js"]
     }
     
     

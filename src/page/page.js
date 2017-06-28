@@ -1,7 +1,9 @@
+
 $(document).ready(function () {
     startTime();
     createLinks();
 });
+
 
 $(document).keypress(function (e) {
     if (e.which == 13) {
@@ -40,7 +42,7 @@ function createLinks() {
                 links: [{
                         short: "r",
                         name: "Reddit",
-                        url: "https://github.com",
+                        url: "https://reddit.com",
                         queryUrl: "/r/"
                     },
                     {

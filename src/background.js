@@ -1,6 +1,6 @@
 function openPage() {
     browser.tabs.update({
-        "url": "page.html"
+        "url": "src/page/page.html"
     });
 }
 
